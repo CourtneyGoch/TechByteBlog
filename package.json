@@ -3,16 +3,6 @@
     "version": "1.0.0",
     "description": "Model-View-Controller (MVC) Challenge.",
     "main": "server.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
-        "start": "node server.js",
-        "watch": "nodemon server.js",
-        "seed": "node seeds/index.js"
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://courtneygoch.github.io/TechByteBlog/"
-      },
     "dependencies": {
         "bcrypt": "^5.0.0",
         "connect-session-sequelize": "^7.0.4",
@@ -20,10 +10,27 @@
         "express": "^4.17.1",
         "express-handlebars": "^5.2.0",
         "express-session": "^1.17.1",
+        "heroku": "^7.56.1",
+        "mysql": "^2.18.1",
         "mysql2": "^2.2.5",
         "sequelize": "^6.29.3"
     },
-    "devDependencies": {
-        "nodemon": "^2.0.6"
-    }
+    "devDependencies": {},
+    "scripts": {
+        "start": "node server.js",
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node server.js",
+        "watch": "nodemon server.js",
+        "seed": "node seeds/index.js"
+},
+"repository": {
+    "type": "git",
+    "url": "git+https://courtneygoch.github.io/TechByteBlog/"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/courtneygoch/TechByteBlog/issues"
+  },
+  "homepage": "https://github.com/courtneygoch/TechByteBlog#readme"
 }
