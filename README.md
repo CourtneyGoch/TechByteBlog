@@ -23,9 +23,12 @@ node sever
 ## Usage
 
 Final app can be shown deployed on Heroku 
-See here: 
+See here: https://whispering-headland-27834.herokuapp.com/dashboard
 
 Screen shots below:
+![Screenshot 2023-03-19 215002](https://user-images.githubusercontent.com/116982713/226228637-4190fb0e-9c8c-45de-b839-4805c7938edc.png)
+![Screenshot 2023-03-19 215032](https://user-images.githubusercontent.com/116982713/226228639-d310df64-cf53-4cd1-b853-89b6a5262c18.png)
+
 
 ## License
 
