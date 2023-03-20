@@ -1,14 +1,18 @@
 {
-    "name": "tech-blog",
+    "name": "tech-byte-blog",
     "version": "1.0.0",
     "description": "Model-View-Controller (MVC) Challenge.",
     "main": "server.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "start": "node index.js",
+        "start": "node server.js",
         "watch": "nodemon server.js",
         "seed": "node seeds/index.js"
     },
+    "repository": {
+        "type": "git",
+        "url": "https://courtneygoch.github.io/TechByteBlog/"
+      },
     "dependencies": {
         "bcrypt": "^5.0.0",
         "connect-session-sequelize": "^7.0.4",
